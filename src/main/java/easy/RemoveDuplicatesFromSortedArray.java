@@ -27,7 +27,7 @@ public class RemoveDuplicatesFromSortedArray {
         for(int cursor = 1;cursor< nums.length;cursor++ ){
             if(nums[i-1] != nums[cursor]){
                 i++;
-                if(i-1 != cursor) { // avoid unnecessary copy
+                if(i-1 != cursor &&  nums[i-1] != nums[cursor]) { // avoid unnecessary copy
                     nums[i-1] = nums[cursor];
                 }
             }
