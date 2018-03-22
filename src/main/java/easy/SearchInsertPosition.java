@@ -30,9 +30,8 @@ public class SearchInsertPosition {
 
     public static int searchInsert(int[] nums, int target) {
         if(nums == null || nums.length == 0 || target == 0) return 0;
-        if(target > nums[nums.length-1]) return nums.length;
         int low = 0;
-        int high = nums.length-1;
+        int high = nums.length;
         int mid = 0;
         while(low < high){
             mid = low + (high - low)/2;
