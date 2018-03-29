@@ -1,4 +1,4 @@
-package easy;
+package easy.one;
 
 public class CountAndSay {
 //    The count-and-say sequence is the sequence of integers with the first five terms as following:

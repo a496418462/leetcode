@@ -1,4 +1,4 @@
-package easy;
+package easy.one;
 
 public class SearchInsertPosition {
 //    Given a sorted array and a target value,

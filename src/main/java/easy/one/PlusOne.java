@@ -1,4 +1,4 @@
-package easy;
+package easy.one;
 
 public class PlusOne {
 

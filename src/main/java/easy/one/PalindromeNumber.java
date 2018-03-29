@@ -1,4 +1,4 @@
-package easy;
+package easy.one;
 
 public class PalindromeNumber {
     //Determine whether an integer is a palindrome. Do this without extra space.
